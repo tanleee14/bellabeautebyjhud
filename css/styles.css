@@ -1,0 +1,196 @@
+body{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
+}
+p{
+    color: gray;
+}
+/*Title Section*/
+#title{
+    background-color: #EAC696;
+    padding: 3% 15% 5%;
+}
+.brand-title{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.links{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 300;
+    font-size: 1.20rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.title-quote{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.btn-download{
+    margin: 5% 3% 5% 0%;
+}
+.fab-icon{
+    margin-right: 8px;
+}
+.img-profile{
+    margin-left: 30%;
+}
+
+/*Features Section*/
+#features{
+    padding: 7% 14%;
+    text-align: center;
+}
+.fa-icon{
+    color: #765827;
+    margin: 1rem;
+}
+.fa-icon:hover{
+    color: #EAC696;
+}
+.feature-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.feature-col{
+    padding: 5%;
+}
+
+/*Testimonial Section*/
+#testimonials{
+    background-color: #C8AE7D;
+    text-align: center;
+    color: white;
+}
+.testimonial-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 14%;
+}
+
+/*Pricing Section*/
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.price-heading, .price-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*CTA Section*/
+#cta{
+    background-color: #765827;
+    padding: 7% 14%;
+    text-align: center;
+}
+.cta-title{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+/*Footer Section*/
+#footer{
+    padding: 7% 14%;
+    text-align: center;
+}
+.foot-icon{
+    padding: 20px 10px;
+}
+
+@media (max-width:1024px){
+    .title-quote{
+        font-size: 3rem;
+    }
+    .btn-download{
+        margin-right: 6px;
+    }
+}
+
+@media (max-width: 768px){
+    .img-profile{
+        position: relative;
+        width: 60;
+    }
+}
+
+/*About Section*/
+
+#about-title{
+    text-align: center;
+    background-color: #EAC696;
+    padding: 32px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: white;
+}
+
+#body {
+    border: 2px solid #765827;
+    padding: 20px;
+    background-color: white;
+    margin: auto 20% auto;
+}
+
+#about-us{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: black;
+}
+
+#navbar-about{
+    padding: 10px;
+}
+
+/*Gallery Section*/
+
+#gallery-title{
+    text-align: center;
+    background-color: #EAC696;
+    padding: 32px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: white;
+}
+
+#navbar-gallery{
+    padding: 10px;
+}
+
+#pictures {
+    text-align: center;
+    padding: 20px;
+}
+
+#gallery {
+    font-size: 24px;
+}
+
+#pictures div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+#pictures img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
